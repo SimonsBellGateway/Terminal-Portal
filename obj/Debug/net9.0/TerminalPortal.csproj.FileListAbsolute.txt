@@ -1,0 +1,14 @@
+/mnt/storage/MyProjects/TerminalPortal/bin/Debug/net9.0/TerminalPortal
+/mnt/storage/MyProjects/TerminalPortal/bin/Debug/net9.0/TerminalPortal.deps.json
+/mnt/storage/MyProjects/TerminalPortal/bin/Debug/net9.0/TerminalPortal.runtimeconfig.json
+/mnt/storage/MyProjects/TerminalPortal/bin/Debug/net9.0/TerminalPortal.dll
+/mnt/storage/MyProjects/TerminalPortal/bin/Debug/net9.0/TerminalPortal.pdb
+/mnt/storage/MyProjects/TerminalPortal/obj/Debug/net9.0/TerminalPortal.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/storage/MyProjects/TerminalPortal/obj/Debug/net9.0/TerminalPortal.AssemblyInfoInputs.cache
+/mnt/storage/MyProjects/TerminalPortal/obj/Debug/net9.0/TerminalPortal.AssemblyInfo.cs
+/mnt/storage/MyProjects/TerminalPortal/obj/Debug/net9.0/TerminalPortal.csproj.CoreCompileInputs.cache
+/mnt/storage/MyProjects/TerminalPortal/obj/Debug/net9.0/TerminalPortal.dll
+/mnt/storage/MyProjects/TerminalPortal/obj/Debug/net9.0/refint/TerminalPortal.dll
+/mnt/storage/MyProjects/TerminalPortal/obj/Debug/net9.0/TerminalPortal.pdb
+/mnt/storage/MyProjects/TerminalPortal/obj/Debug/net9.0/TerminalPortal.genruntimeconfig.cache
+/mnt/storage/MyProjects/TerminalPortal/obj/Debug/net9.0/ref/TerminalPortal.dll

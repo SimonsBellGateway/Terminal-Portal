@@ -12,3 +12,4 @@
 /mnt/storage/MyProjects/TerminalPortal/obj/Debug/net9.0/TerminalPortal.pdb
 /mnt/storage/MyProjects/TerminalPortal/obj/Debug/net9.0/TerminalPortal.genruntimeconfig.cache
 /mnt/storage/MyProjects/TerminalPortal/obj/Debug/net9.0/ref/TerminalPortal.dll
+/mnt/storage/MyProjects/TerminalPortal/obj/Debug/net9.0/TerminalPortal.sourcelink.json

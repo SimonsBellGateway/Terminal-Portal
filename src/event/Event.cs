@@ -13,6 +13,19 @@ namespace EventHandle
             for (i = 0; i < newNodes.Length; i++)
                 this.nodes[i] = newNodes[i];
         }
+
+        public void setNumberOfNodes(int newNumberOfNodes)
+        {
+            this.numberOfNodes = newNumberOfNodes;
+        }
+        public int getNumberOfEdges()
+        {
+            return numberOfNodes;
+        }
+        public Node getNode(int index)
+        {
+            return nodes[index];
+        }
         public void setNode(int index, Node newNode)
         {
             nodes[index] = newNode;

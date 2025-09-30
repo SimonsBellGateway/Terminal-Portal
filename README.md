@@ -9,3 +9,6 @@ Objectives
 
 Plan:
 For now the plan is to make events and have a way to make events(I have a very big vocabulary XD) soo that if someone uses it, he can keep his sanity.
+
+Changes:
+Made some progress on the console interface

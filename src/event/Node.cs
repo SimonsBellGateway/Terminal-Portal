@@ -1,47 +1,51 @@
 
+using System.Dynamic;
 using System.Globalization;
 
 namespace EventHandle
 {
     public class Node
     {
-        private int numberOfEdges = 101;
+        private int numberOfEdges;
         private Edge[] edges;
+        private string text;
 
-        public Node(Edge[] newEdges)
+        public Node(int newNumberOfEdges, string newText, Edge[] newEdges)
         {
             int i;
+            this.numberOfEdges = newNumberOfEdges;
+            this.text = newText;
             edges = new Edge[numberOfEdges];
             for (i = 0; i < newEdges.Length; i++)
                 this.edges[i] = newEdges[i];
         }
-        public string getLink(int index)
+
+        public void setNumberOfEdges(int newNumberOfEdges)
         {
-            return edges[index].getLink();
+            this.numberOfEdges = newNumberOfEdges;
         }
-        public void setLink(int index, string newLink)
+        public int getNumberOfEdges()
         {
-            edges[index].setLink(newLink);
+            return numberOfEdges;
         }
-        public string getText(int index)
-        {
-            return edges[index].getText();
-        }
-        public void setText(int index, string newText)
-        {
-            edges[index].setText(newText);
-        }
-        public string getCommand(int index)
-        {
-            return edges[index].getCommand();
-        }
-        public void setCommand(int index, string newCommand)
-        {
-            edges[index].setCommand(newCommand);
-        }
+
         public void setEdge(int index, Edge newEdge)
         {
             edges[index] = newEdge;
         }
+        public Edge GetEdge(int index)
+        {
+            return edges[index];
+        }
+
+        public void setText(string newText)
+        {
+            this.text = newText;
+        }
+        public string getText()
+        {
+            return text;
+        }
+
     }
 }

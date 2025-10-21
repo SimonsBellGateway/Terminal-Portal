@@ -25,7 +25,7 @@ namespace ConsoleInterface
             {
                 Array.Resize(ref currentText, k + 1);
                 j = 0;
-                while ((i < text.Length) && (j < widthLimit))
+                while ((i < text.Length) && (j <= widthLimit))
                 {
                     tempString = "";
                     if (!text[i].Equals(c1))
@@ -37,11 +37,11 @@ namespace ConsoleInterface
                     else
                     {
                         //  For some reason the "" are needed here in order to work \_(*-*)_/
-                        tempString = c1 + text[(i + 1)] + text[(i + 2)] + text[(i + 3)] + "";
+                        tempString = text.Substring(i, 4);
                         if (tempString.Equals(c2))
                         {
-                            j = widthLimit;
-                            i += 3;
+                            j = widthLimit + 1;
+                            i += 4;
 
                         }
                         else
@@ -53,6 +53,7 @@ namespace ConsoleInterface
                     }
                 }
                 k++;
+                i--;
             }
         }
         public void RenderNodeText(Node node)

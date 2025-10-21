@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/storage/MyProjects/TerminalPortal/TerminalPortal.csproj": {}
+    "/home/sh/MyProjects/TerminalPortal/Terminal-Portal/TerminalPortal.csproj": {}
   },
   "projects": {
-    "/mnt/storage/MyProjects/TerminalPortal/TerminalPortal.csproj": {
+    "/home/sh/MyProjects/TerminalPortal/Terminal-Portal/TerminalPortal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/storage/MyProjects/TerminalPortal/TerminalPortal.csproj",
+        "projectUniqueName": "/home/sh/MyProjects/TerminalPortal/Terminal-Portal/TerminalPortal.csproj",
         "projectName": "TerminalPortal",
-        "projectPath": "/mnt/storage/MyProjects/TerminalPortal/TerminalPortal.csproj",
+        "projectPath": "/home/sh/MyProjects/TerminalPortal/Terminal-Portal/TerminalPortal.csproj",
         "packagesPath": "/home/sh/.nuget/packages/",
-        "outputPath": "/mnt/storage/MyProjects/TerminalPortal/obj/",
+        "outputPath": "/home/sh/MyProjects/TerminalPortal/Terminal-Portal/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/sh/.nuget/NuGet/NuGet.Config"

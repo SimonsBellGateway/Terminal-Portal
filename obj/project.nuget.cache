@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EXXcrbzIa1A=",
+  "dgSpecHash": "F03njLu74UE=",
   "success": true,
-  "projectFilePath": "/mnt/storage/MyProjects/TerminalPortal/TerminalPortal.csproj",
+  "projectFilePath": "/home/sh/MyProjects/TerminalPortal/Terminal-Portal/TerminalPortal.csproj",
   "expectedPackageFiles": [
     "/home/sh/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.9/microsoft.aspnetcore.app.ref.9.0.9.nupkg.sha512"
   ],

@@ -9,8 +9,9 @@ namespace EventHandle
         private int numberOfEdges;
         private Edge[] edges;
         private string text;
+        private string name;
 
-        public Node(int newNumberOfEdges, string newText, Edge[] newEdges)
+        public Node(int newNumberOfEdges, string newText, Edge[] newEdges, string newName)
         {
             int i;
             this.numberOfEdges = newNumberOfEdges;
@@ -18,6 +19,7 @@ namespace EventHandle
             edges = new Edge[numberOfEdges];
             for (i = 0; i < newEdges.Length; i++)
                 this.edges[i] = newEdges[i];
+            this.name = newName;
         }
 
         public void setNumberOfEdges(int newNumberOfEdges)
@@ -45,6 +47,14 @@ namespace EventHandle
         public string getText()
         {
             return text;
+        }
+        public void SetName(string newName)
+        {
+            this.name = newName;
+        }
+        public string GetName()
+        {
+            return name;
         }
 
     }

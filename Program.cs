@@ -39,18 +39,6 @@ do
     render.RenderNode(first_event.GetNode(currentNode));
     Console.Write(">");
     input = Console.ReadLine();
-    switch (input)
-    {
-        case "1":
-            currentNode = first_event.GetNode(currentNode).GetEdge(0).getLink();
-            break;
-        case "2":
-            currentNode = first_event.GetNode(currentNode).GetEdge(1).getLink();
-            break;
-        default:
-            break;
-    }
-    
-} while (input != "q");
+    first_event.GetCurrentNode(input, ref currentNode);
 
-    
+} while (input != "q");

@@ -32,5 +32,18 @@ namespace EventHandle
             Array.Resize(ref nodes, nodes.Length + 1);
             setNode(nodes.Length, newNode);
         }
+         /*
+          *  The switch takes the "input" variable to determine the "currentNode" variable.
+          *  This function maybe move to another calss later, for now it belongs here.
+          */
+        public void GetCurrentNode(string input, ref string currentNode)
+        {
+            int inputInt = 0;
+            if (input.All(char.IsDigit))
+                inputInt = int.Parse(input);
+            if ((inputInt <= GetNode(currentNode).getNumberOfEdges())&&(inputInt != 0))
+                currentNode = GetNode(currentNode).GetEdge(inputInt - 1).getLink();
+              
+        }
     }
 }

@@ -11,7 +11,6 @@ namespace ConsoleInterface
         {
             this.widthLimit = newWidthLimit;
         }
-        //  Needs to be repaired
         public void textOrganizer(string text, ref string[] currentText)
         {
             int i, j, k;
@@ -36,7 +35,6 @@ namespace ConsoleInterface
                     }
                     else
                     {
-                        //  For some reason the "" are needed here in order to work \_(*-*)_/
                         tempString = text.Substring(i, 4);
                         if (tempString.Equals(c2))
                         {
